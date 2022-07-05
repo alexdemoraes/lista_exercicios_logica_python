@@ -11,7 +11,7 @@ print('\n')
 def homem():
     a = float(input('Digite a sua altura (ex: 1.70): '))
     r = (72.7 * a) - 58
-return('O peso ideal para um homem é: {:.2f}'.format(r))
+    return('O peso ideal para um homem é: {:.2f}'.format(r))
 
 
 print('\n')
