@@ -7,12 +7,10 @@
 
 print('\n')
 
-
 def homem():
     a = float(input('Digite a sua altura (ex: 1.70): '))
     r = (72.7 * a) - 58
     return('O peso ideal para um homem é: {:.2f}'.format(r))
-
 
 print('\n')
 
@@ -20,8 +18,6 @@ def mulher():
     a = float(input("Digite a sua altura (ex: 1.50): "))
     r = (62.1 * a) - 44.7
     return('O peso ideal para uma mulher é: {:.2f}'.format(r))
-
-
 
 
 sexo = input('Digite se você é homem ou mulher: ')

@@ -6,10 +6,22 @@
 # Informe ao usuário a quantidades de latas de tinta a
 # serem compradas e o preço total.
 
+import math
+
+def pintar_area():
+    metros = int(input('Digite o valor em metros²: '))
+
+    area = metros / 3
+    latas = math.ceil(area / 18)
+    preco = latas * 80
 
 
+    return ('Para cobrir os {}m², '
+'você precisará comprar {} latas de tintas '
+'e o preço total é de R$ {:.2f}'.format(metros, latas, preco))
 
 
+print(pintar_area())
 
 
 
